@@ -17,8 +17,6 @@ Uses the PyTorch implementation of **YOLOv10** before converting it to RKNN (RK3
   Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding
 </details>
 
-&nbsp;
-
 <details>
   <summary>
   <font size="+1">Abstract</font>
