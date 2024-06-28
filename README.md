@@ -47,9 +47,11 @@ Uses the PyTorch implementation of **YOLOv10** before converting it to RKNN (RK3
 </details>
 
 ## Models
+Trained on Team 4169's Dataset Colab dataset.
+
 | Model | Test Size | Precision | Recall | mAP50 | mAP50-95 | Latency (ms) |
 |:---------------|:----:|:---:|:--:|:--:|:--:|:--:|
-| [Epoch 130 Best.pt](https://huggingface.co/jameslahm/yolov10n) |   640  |     0.962    |   0.964   |     0.981     | 0.848 | 1.2 ms |
+| [Epoch 130 Best PyTorch](https://huggingface.co/jameslahm/yolov10n) |   640  |     0.962    |   0.964   |     0.981     | 0.848 | 1.2ms |
 | [YOLOv10-N ONNX 12](https://huggingface.co/jameslahm/yolov10n) |   640  |     0.962    |   0.964   |     0.981     | 0.848 | ? |
 | [YOLOv10-N ONNX 13](https://huggingface.co/jameslahm/yolov10s) |   640  |     0.962    |   0.964  |     0.981     | 0.848 | ? |
 | [YOLOv10-N ONNX 17](https://huggingface.co/jameslahm/yolov10m) |   640  |     0.962   |   0.964  |     0.981     | 0.848 | ? |
