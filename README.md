@@ -49,11 +49,11 @@ Trained on Team 4169's Dataset Colab dataset.
 
 | Model | Test Size | Precision | Recall | mAP50 | mAP50-95 | Latency (ms) |
 |:---------------|:----:|:---:|:--:|:--:|:--:|:--:|
-| [Epoch 130 Best PyTorch](https://huggingface.co/jameslahm/yolov10n) |   640  |     0.962    |   0.964   |     0.981     | 0.848 | 1.2ms |
-| [YOLOv10-N ONNX 12](https://huggingface.co/jameslahm/yolov10n) |   640  |     0.962    |   0.964   |     0.981     | 0.848 | ? |
-| [YOLOv10-N ONNX 13](https://huggingface.co/jameslahm/yolov10s) |   640  |     0.962    |   0.964  |     0.981     | 0.848 | ? |
-| [YOLOv10-N ONNX 17](https://huggingface.co/jameslahm/yolov10m) |   640  |     0.962   |   0.964  |     0.981     | 0.848 | ? |
-| [YOLOv10-N RKNN INT8](https://huggingface.co/jameslahm/yolov10b) |   640  |     ?   |  ? |     ?     | ? | ? |
+| [Epoch 130 Best PyTorch](https://github.com/Aieda1l/FRC-2024-Game-Piece-Detection/raw/main/weights/epoch_130.pt) |   640  |     0.962    |   0.964   |     0.981     | 0.848 | 1.2ms |
+| [YOLOv10-N ONNX 12](https://github.com/Aieda1l/FRC-2024-Game-Piece-Detection/raw/main/weights/yolov10n_12.onnx) |   640  |     0.962    |   0.964   |     0.981     | 0.848 | ? |
+| [YOLOv10-N ONNX 13](https://github.com/Aieda1l/FRC-2024-Game-Piece-Detection/raw/main/weights/yolov10n_13.onnx) |   640  |     0.962    |   0.964  |     0.981     | 0.848 | ? |
+| [YOLOv10-N ONNX 17](https://github.com/Aieda1l/FRC-2024-Game-Piece-Detection/raw/main/weights/yolov10n_17.onnx) |   640  |     0.962   |   0.964  |     0.981     | 0.848 | ? |
+| [YOLOv10-N RKNN INT8](https://github.com/Aieda1l/FRC-2024-Game-Piece-Detection/raw/main/weights/yolov10n_i8.rknn) |   640  |     ?   |  ? |     ?     | ? | ? |
 
 ## Installation
 `conda` virtual environment is recommended. 
